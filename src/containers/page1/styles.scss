@@ -1,0 +1,238 @@
+.page1-container{
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+  margin: 0;
+  padding: 0;
+  background: url("../../images/page1/page1-back.jpg");
+  background-size: cover;
+  .product-box{
+    width: 470px;
+    height: 270px;
+    margin-top: 25px;
+    float: left;
+    .product-title{
+      width: 200px;
+      height: 40px;
+      margin-left: 135px;
+    }
+    .product-content{
+      position: relative;
+      width: 470px;
+      height: 210px;
+      margin-top: 20px;
+      .product-left{
+        width: 110px;
+        height: 100%;
+        float: left;
+        .name{
+          width: 100%;
+          margin-top: 10px;
+          color: #e1e2e3;
+          text-align: center;
+        }
+        .status{
+          margin-top: 10px;
+          text-align: center;
+          color: #00dcff;
+        }
+      }
+      .product-table{
+        width: 330px;
+        height: 100%;
+        float: right;
+        border-top: 1px solid #075d72;
+        border-left: 1px solid #075d72;
+        div{
+          height: 35px;
+          line-height: 35px;
+        }
+        .twoBox{
+          display: flex;
+          flex-direction: row;
+          div {
+            text-align: center;
+            color: #00c5e5;
+            border-bottom: 1px solid #075d72;
+            border-right: 1px solid #075d72;
+          }
+          .two-one{
+            width: 220px;
+          }
+          .two-two{
+            width: 110px;
+          }
+        }
+        .threeBox {
+          display: flex;
+          flex-direction: row;
+          div {
+            width: 110px;
+            color: #00c5e5;
+            text-align: center;
+            border-bottom: 1px solid #075d72;
+            border-right: 1px solid #075d72;
+          }
+        }
+        .box-title{
+          div {
+            color: #0090d8;
+            background: #15293b;
+            opacity: 0.6;
+          }
+        }
+      }
+    }
+  }
+  .material-box {
+    width: 490px;
+    height: 280px;
+    float: left;
+    margin-left: 80px;
+    margin-top: 25px;
+    .material-title {
+      width: 200px;
+      height: 40px;
+      margin-left: 135px;
+    }
+    .material-content {
+      position: relative;
+      width: 490px;
+      height: 210px;
+      margin-top: 20px;
+      .material-left {
+        width: 90px;
+        height: 100%;
+        float: left;
+        .carNum {
+          position: relative;
+          width: 100%;
+          margin-top: 20px;
+          margin-bottom: 10px;
+          .imgset {
+            width: 56px;
+            height: 64px;
+          }
+          .text{
+            position: absolute;
+            color: #00dcff;
+            top:10px;
+            right:10px;
+            font-size: 30px;
+          }
+        }
+        .material-lack{
+          position: relative;
+          width: 100%;
+          margin-top: 20px;
+          .imgset {
+            margin-top: 15px;
+            margin-left: 10px;
+            width: 35px;
+            height: 32px;
+          }
+          .text{
+            position: absolute;
+            color: #7eb2e6;
+            top:10px;
+            right:10px;
+            font-size: 30px;
+          }
+        }
+      }
+      .material-right {
+        width: 370px;
+        height: 100%;
+        margin-left: 30px;
+        float: right;
+        .title {
+          width: 166px;
+          margin-left: 105px;
+        }
+      }
+    }
+  }
+  .quality-box {
+    width: 700px;
+    height: 280px;
+    float: left;
+    margin-left: 80px;
+    margin-top: 25px;
+    .quality-title {
+      width: 200px;
+      height: 40px;
+      margin-left: 250px;
+    }
+    .quality-content {
+      position: relative;
+      width: 700px;
+      height: 210px;
+      margin-top: 20px;
+      .quality-left {
+        width: 360px;
+        height: 100%;
+        float: left;
+        .title {
+          width: 160px;
+          margin-left: 100px;
+        }
+      }
+      .quality-right {
+        width: 280px;
+        height: 100%;
+        float: right;
+        .title {
+          width: 160px;
+          margin-left: 60px;
+        }
+        .list{
+          width: 100%;
+          height: 100%;
+          overflow: hidden;
+        }
+      }
+    }
+  }
+  .workshop18{
+    width: 434px;
+    height: 84px;
+    background: url("../../images/page1/back18.png");
+    background-size: cover;
+    p {
+      position: absolute;
+      width: 130px;
+      height: 30px;
+      font-size: 30px;
+      margin-left: 195px;
+      top:20px;
+      color: #ffffff;
+    }
+  }
+  .plan-box{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+
+    .todayPlan {
+      width: 200px;
+      .num{
+        width: 100%;
+        height: 100%;
+        color: #00dcff;
+        font-size: 44px;
+        text-align: center;
+      }
+    }
+    .actual {
+      margin-left: 30px;
+      width: 200px;
+      .num{
+        width: 100%;
+        height: 100%;
+        color: #ffffff;
+        font-size: 44px;
+        text-align: center;
+      }
+    }
+  }
+}

@@ -6,7 +6,7 @@ const todo = (state = [], action) => {
       return [
         ...state,
         action.record
-      ]
+      ];
     case 'TODO_LIST_REMOVE':
       return [
         ...state.slice(0, action.index),
@@ -15,7 +15,7 @@ const todo = (state = [], action) => {
     default:
     return [];
   }
-}
+};
 export default combineReducers({
   todo
 })

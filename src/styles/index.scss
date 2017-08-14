@@ -5,10 +5,9 @@ html, body {
 }
 
 #root {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  padding: 40px 0;
+  margin: 0;
+  padding: 0;
+
 }
 .layout-greet {
   background: red;

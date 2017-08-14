@@ -6,24 +6,10 @@ export default class Layout extends Component{
     super(props)
   }
   render() {
-    const extra = (
-      <a
-        target="_blank"
-        style={{ fontSize: 16, color: '#08c' }}
-        href="https://github.com/JerryBerton"
-      >
-        <Icon type="github" />
-      </a>
-    )
     return (
-      <Card
-        title="Welcome to you !!!"
-        style={{ width: 560 }}
-        className="layout-greet"
-        extra={extra}
-      >
-        {this.props.children}
-      </Card>
+        <div className="layout">
+          {this.props.children}
+        </div>
     )
   }
 }

@@ -27,6 +27,9 @@ module.exports = {
     }, {
       test: /\.(css|scss|less)$/,
       use: ['style-loader', 'css-loader?sourceMap', 'sass-loader?sourceMap']
+    }, {
+      test: /\.(png|jpg|gif|woff|woff2)$/,
+      loader: 'url-loader?limit=8192'
     }]
   },
   plugins: [
